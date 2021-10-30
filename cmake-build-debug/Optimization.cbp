@@ -80,6 +80,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/GradientDescent.cpp">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/LeastSquares.cpp">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/LogisticRegression.cpp">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/Matrix.cpp">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/Matrix.h">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/Vector.cpp">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/Vector.h">
+			<Option target="Optimization"/>
+		</Unit>
 		<Unit filename="/Users/connor/CLionProjects/Optimization/main.cpp">
 			<Option target="Optimization"/>
 		</Unit>
