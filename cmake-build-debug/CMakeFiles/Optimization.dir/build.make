@@ -92,35 +92,9 @@ CMakeFiles/Optimization.dir/Vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Optimization.dir/Vector.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connor/CLionProjects/Optimization/Vector.cpp -o CMakeFiles/Optimization.dir/Vector.cpp.s
 
-CMakeFiles/Optimization.dir/LogisticRegression.cpp.o: CMakeFiles/Optimization.dir/flags.make
-CMakeFiles/Optimization.dir/LogisticRegression.cpp.o: ../LogisticRegression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Optimization.dir/LogisticRegression.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Optimization.dir/LogisticRegression.cpp.o -c /Users/connor/CLionProjects/Optimization/LogisticRegression.cpp
-
-CMakeFiles/Optimization.dir/LogisticRegression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Optimization.dir/LogisticRegression.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connor/CLionProjects/Optimization/LogisticRegression.cpp > CMakeFiles/Optimization.dir/LogisticRegression.cpp.i
-
-CMakeFiles/Optimization.dir/LogisticRegression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Optimization.dir/LogisticRegression.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connor/CLionProjects/Optimization/LogisticRegression.cpp -o CMakeFiles/Optimization.dir/LogisticRegression.cpp.s
-
-CMakeFiles/Optimization.dir/Matrix.cpp.o: CMakeFiles/Optimization.dir/flags.make
-CMakeFiles/Optimization.dir/Matrix.cpp.o: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Optimization.dir/Matrix.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Optimization.dir/Matrix.cpp.o -c /Users/connor/CLionProjects/Optimization/Matrix.cpp
-
-CMakeFiles/Optimization.dir/Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Optimization.dir/Matrix.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connor/CLionProjects/Optimization/Matrix.cpp > CMakeFiles/Optimization.dir/Matrix.cpp.i
-
-CMakeFiles/Optimization.dir/Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Optimization.dir/Matrix.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connor/CLionProjects/Optimization/Matrix.cpp -o CMakeFiles/Optimization.dir/Matrix.cpp.s
-
 CMakeFiles/Optimization.dir/LeastSquares.cpp.o: CMakeFiles/Optimization.dir/flags.make
 CMakeFiles/Optimization.dir/LeastSquares.cpp.o: ../LeastSquares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Optimization.dir/LeastSquares.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Optimization.dir/LeastSquares.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Optimization.dir/LeastSquares.cpp.o -c /Users/connor/CLionProjects/Optimization/LeastSquares.cpp
 
 CMakeFiles/Optimization.dir/LeastSquares.cpp.i: cmake_force
@@ -131,40 +105,21 @@ CMakeFiles/Optimization.dir/LeastSquares.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Optimization.dir/LeastSquares.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connor/CLionProjects/Optimization/LeastSquares.cpp -o CMakeFiles/Optimization.dir/LeastSquares.cpp.s
 
-CMakeFiles/Optimization.dir/GradientDescent.cpp.o: CMakeFiles/Optimization.dir/flags.make
-CMakeFiles/Optimization.dir/GradientDescent.cpp.o: ../GradientDescent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Optimization.dir/GradientDescent.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Optimization.dir/GradientDescent.cpp.o -c /Users/connor/CLionProjects/Optimization/GradientDescent.cpp
-
-CMakeFiles/Optimization.dir/GradientDescent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Optimization.dir/GradientDescent.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connor/CLionProjects/Optimization/GradientDescent.cpp > CMakeFiles/Optimization.dir/GradientDescent.cpp.i
-
-CMakeFiles/Optimization.dir/GradientDescent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Optimization.dir/GradientDescent.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connor/CLionProjects/Optimization/GradientDescent.cpp -o CMakeFiles/Optimization.dir/GradientDescent.cpp.s
-
 # Object files for target Optimization
 Optimization_OBJECTS = \
 "CMakeFiles/Optimization.dir/main.cpp.o" \
 "CMakeFiles/Optimization.dir/Vector.cpp.o" \
-"CMakeFiles/Optimization.dir/LogisticRegression.cpp.o" \
-"CMakeFiles/Optimization.dir/Matrix.cpp.o" \
-"CMakeFiles/Optimization.dir/LeastSquares.cpp.o" \
-"CMakeFiles/Optimization.dir/GradientDescent.cpp.o"
+"CMakeFiles/Optimization.dir/LeastSquares.cpp.o"
 
 # External object files for target Optimization
 Optimization_EXTERNAL_OBJECTS =
 
 Optimization: CMakeFiles/Optimization.dir/main.cpp.o
 Optimization: CMakeFiles/Optimization.dir/Vector.cpp.o
-Optimization: CMakeFiles/Optimization.dir/LogisticRegression.cpp.o
-Optimization: CMakeFiles/Optimization.dir/Matrix.cpp.o
 Optimization: CMakeFiles/Optimization.dir/LeastSquares.cpp.o
-Optimization: CMakeFiles/Optimization.dir/GradientDescent.cpp.o
 Optimization: CMakeFiles/Optimization.dir/build.make
 Optimization: CMakeFiles/Optimization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Optimization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Optimization"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Optimization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

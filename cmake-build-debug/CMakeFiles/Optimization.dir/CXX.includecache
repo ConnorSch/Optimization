@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/connor/CLionProjects/Optimization/LogisticRegression.cpp
-
-/Users/connor/CLionProjects/Optimization/Matrix.cpp
-Matrix.h
-/Users/connor/CLionProjects/Optimization/Matrix.h
-
-/Users/connor/CLionProjects/Optimization/Matrix.h
-vector
--
-
-/Users/connor/CLionProjects/Optimization/Vector.cpp
+/Users/connor/CLionProjects/Optimization/LeastSquares.h
 Vector.h
 /Users/connor/CLionProjects/Optimization/Vector.h
-cmath
--
 
 /Users/connor/CLionProjects/Optimization/Vector.h
 vector
@@ -33,12 +21,8 @@ iostream
 -
 Vector.h
 /Users/connor/CLionProjects/Optimization/Vector.h
-Matrix.h
-/Users/connor/CLionProjects/Optimization/Matrix.h
-LogisticRegression.cpp
-/Users/connor/CLionProjects/Optimization/LogisticRegression.cpp
-ctime
+cmath
 -
-random
--
+LeastSquares.h
+/Users/connor/CLionProjects/Optimization/LeastSquares.h
 

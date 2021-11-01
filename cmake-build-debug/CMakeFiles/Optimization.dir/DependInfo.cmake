@@ -8,10 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/connor/CLionProjects/Optimization/GradientDescent.cpp" "/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles/Optimization.dir/GradientDescent.cpp.o"
   "/Users/connor/CLionProjects/Optimization/LeastSquares.cpp" "/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles/Optimization.dir/LeastSquares.cpp.o"
-  "/Users/connor/CLionProjects/Optimization/LogisticRegression.cpp" "/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles/Optimization.dir/LogisticRegression.cpp.o"
-  "/Users/connor/CLionProjects/Optimization/Matrix.cpp" "/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles/Optimization.dir/Matrix.cpp.o"
   "/Users/connor/CLionProjects/Optimization/Vector.cpp" "/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles/Optimization.dir/Vector.cpp.o"
   "/Users/connor/CLionProjects/Optimization/main.cpp" "/Users/connor/CLionProjects/Optimization/cmake-build-debug/CMakeFiles/Optimization.dir/main.cpp.o"
   )

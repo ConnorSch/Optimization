@@ -129,30 +129,6 @@ Optimization/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/build
 .PHONY : Optimization/fast
 
-GradientDescent.o: GradientDescent.cpp.o
-.PHONY : GradientDescent.o
-
-# target to build an object file
-GradientDescent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/GradientDescent.cpp.o
-.PHONY : GradientDescent.cpp.o
-
-GradientDescent.i: GradientDescent.cpp.i
-.PHONY : GradientDescent.i
-
-# target to preprocess a source file
-GradientDescent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/GradientDescent.cpp.i
-.PHONY : GradientDescent.cpp.i
-
-GradientDescent.s: GradientDescent.cpp.s
-.PHONY : GradientDescent.s
-
-# target to generate assembly for a file
-GradientDescent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/GradientDescent.cpp.s
-.PHONY : GradientDescent.cpp.s
-
 LeastSquares.o: LeastSquares.cpp.o
 .PHONY : LeastSquares.o
 
@@ -176,54 +152,6 @@ LeastSquares.s: LeastSquares.cpp.s
 LeastSquares.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/LeastSquares.cpp.s
 .PHONY : LeastSquares.cpp.s
-
-LogisticRegression.o: LogisticRegression.cpp.o
-.PHONY : LogisticRegression.o
-
-# target to build an object file
-LogisticRegression.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/LogisticRegression.cpp.o
-.PHONY : LogisticRegression.cpp.o
-
-LogisticRegression.i: LogisticRegression.cpp.i
-.PHONY : LogisticRegression.i
-
-# target to preprocess a source file
-LogisticRegression.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/LogisticRegression.cpp.i
-.PHONY : LogisticRegression.cpp.i
-
-LogisticRegression.s: LogisticRegression.cpp.s
-.PHONY : LogisticRegression.s
-
-# target to generate assembly for a file
-LogisticRegression.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/LogisticRegression.cpp.s
-.PHONY : LogisticRegression.cpp.s
-
-Matrix.o: Matrix.cpp.o
-.PHONY : Matrix.o
-
-# target to build an object file
-Matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/Matrix.cpp.o
-.PHONY : Matrix.cpp.o
-
-Matrix.i: Matrix.cpp.i
-.PHONY : Matrix.i
-
-# target to preprocess a source file
-Matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/Matrix.cpp.i
-.PHONY : Matrix.cpp.i
-
-Matrix.s: Matrix.cpp.s
-.PHONY : Matrix.s
-
-# target to generate assembly for a file
-Matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/Matrix.cpp.s
-.PHONY : Matrix.cpp.s
 
 Vector.o: Vector.cpp.o
 .PHONY : Vector.o
@@ -282,18 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Optimization"
-	@echo "... GradientDescent.o"
-	@echo "... GradientDescent.i"
-	@echo "... GradientDescent.s"
 	@echo "... LeastSquares.o"
 	@echo "... LeastSquares.i"
 	@echo "... LeastSquares.s"
-	@echo "... LogisticRegression.o"
-	@echo "... LogisticRegression.i"
-	@echo "... LogisticRegression.s"
-	@echo "... Matrix.o"
-	@echo "... Matrix.i"
-	@echo "... Matrix.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"

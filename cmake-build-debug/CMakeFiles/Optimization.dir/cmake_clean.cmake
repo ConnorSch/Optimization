@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Optimization.dir/GradientDescent.cpp.o"
   "CMakeFiles/Optimization.dir/LeastSquares.cpp.o"
-  "CMakeFiles/Optimization.dir/LogisticRegression.cpp.o"
-  "CMakeFiles/Optimization.dir/Matrix.cpp.o"
   "CMakeFiles/Optimization.dir/Vector.cpp.o"
   "CMakeFiles/Optimization.dir/main.cpp.o"
   "Optimization"

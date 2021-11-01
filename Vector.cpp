@@ -7,7 +7,13 @@
 
 void Vector::zeroize(Vector &x) {
   for (int i = 0; i < x.num_rows(); ++i) {
-    x(i) = 0;
+    x(i) = 0.0;
+  }
+}
+
+void Vector::unitize(Vector &x) {
+  for (int i = 0; i < x.num_rows(); ++i) {
+    x(i) = 1.0;
   }
 }
 
@@ -23,14 +29,6 @@ double Vector::sum(const Vector &x){
   double z{0};
   for (int i = 0; i < x.num_rows(); ++i) {
     z += x(i);
-  }
-  return z;
-}
-
-Vector operator-(const Vector& x, const Vector& y){
-  Vector z(x.num_rows());
-  for (int i = 0; i < x.num_rows(); ++i) {
-    z(i) = x(i) - y(i);
   }
   return z;
 }
