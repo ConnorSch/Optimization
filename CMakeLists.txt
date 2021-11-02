@@ -3,4 +3,4 @@ project(Optimization)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Optimization main.cpp Vector.cpp Vector.h LeastSquares.cpp LeastSquares.h)
+add_executable(Optimization main.cpp Vector.cpp Vector.h LeastSquares.cpp LeastSquares.h Algorithms.cpp Algorithms.h)

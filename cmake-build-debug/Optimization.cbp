@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/Algorithms.cpp">
+			<Option target="Optimization"/>
+		</Unit>
+		<Unit filename="/Users/connor/CLionProjects/Optimization/Algorithms.h">
+			<Option target="Optimization"/>
+		</Unit>
 		<Unit filename="/Users/connor/CLionProjects/Optimization/LeastSquares.cpp">
 			<Option target="Optimization"/>
 		</Unit>

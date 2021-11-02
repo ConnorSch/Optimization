@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/connor/CLionProjects/Optimization/Algorithms.cpp
+Algorithms.h
+/Users/connor/CLionProjects/Optimization/Algorithms.h
+LeastSquares.h
+/Users/connor/CLionProjects/Optimization/LeastSquares.h
+
+/Users/connor/CLionProjects/Optimization/Algorithms.h
+Vector.h
+/Users/connor/CLionProjects/Optimization/Vector.h
+
 /Users/connor/CLionProjects/Optimization/LeastSquares.h
 Vector.h
 /Users/connor/CLionProjects/Optimization/Vector.h
@@ -21,8 +31,6 @@ iostream
 -
 Vector.h
 /Users/connor/CLionProjects/Optimization/Vector.h
-cmath
--
-LeastSquares.h
-/Users/connor/CLionProjects/Optimization/LeastSquares.h
+Algorithms.h
+/Users/connor/CLionProjects/Optimization/Algorithms.h
 

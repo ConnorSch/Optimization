@@ -15,6 +15,7 @@ private:
     std::vector<double> m_storage;
 
 public:
+    Vector() = default;
     Vector(size_t M) : m_num_rows(M), m_storage(m_num_rows) {}
     Vector(size_t M,std::vector<double> nums) : m_num_rows(M), m_storage(nums){};
 
@@ -42,8 +43,8 @@ public:
 
     size_t num_rows() const {return m_num_rows;}
 
-    static void zeroize(Vector& x);
-    static void unitize(Vector& x);
+    void zeroize();
+    void unitize();
 
     friend std::ostream& operator<< (std::ostream& out, const Vector& v) {
       for (int i = 0; i < v.num_rows(); ++i) {
@@ -52,8 +53,8 @@ public:
       return out;
     }
 
-    static double norm(const Vector& v);
-    static double sum(const Vector& x);
+    double norm();
+    double sum();
 
 };
 

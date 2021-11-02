@@ -129,6 +129,30 @@ Optimization/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/build
 .PHONY : Optimization/fast
 
+Algorithms.o: Algorithms.cpp.o
+.PHONY : Algorithms.o
+
+# target to build an object file
+Algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/Algorithms.cpp.o
+.PHONY : Algorithms.cpp.o
+
+Algorithms.i: Algorithms.cpp.i
+.PHONY : Algorithms.i
+
+# target to preprocess a source file
+Algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/Algorithms.cpp.i
+.PHONY : Algorithms.cpp.i
+
+Algorithms.s: Algorithms.cpp.s
+.PHONY : Algorithms.s
+
+# target to generate assembly for a file
+Algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Optimization.dir/build.make CMakeFiles/Optimization.dir/Algorithms.cpp.s
+.PHONY : Algorithms.cpp.s
+
 LeastSquares.o: LeastSquares.cpp.o
 .PHONY : LeastSquares.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Optimization"
+	@echo "... Algorithms.o"
+	@echo "... Algorithms.i"
+	@echo "... Algorithms.s"
 	@echo "... LeastSquares.o"
 	@echo "... LeastSquares.i"
 	@echo "... LeastSquares.s"

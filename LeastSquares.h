@@ -6,8 +6,8 @@
 #define OPTIMIZATION_LEASTSQUARES_H
 
 #include "Vector.h"
-Vector f(Vector& x, Vector& b);
-Vector gf(Vector& x, Vector& b);
-double hf(Vector& x, Vector& b);
+double f(Vector& x,const Vector& b);
+Vector gf(Vector& x,const Vector& b);
+double hf(Vector& x,const Vector& b);
 
 #endif //OPTIMIZATION_LEASTSQUARES_H
