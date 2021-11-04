@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 class Vector {
 
@@ -36,15 +37,7 @@ public:
       }
       return y;
     }
-    friend Vector operator-=(Vector& x, const Vector& y){
-      x = x-y;
-      return x;
-    }
-
-    size_t num_rows() const {return m_num_rows;}
-
-    void zeroize();
-    void unitize();
+    friend Vector operator-=(Vector& x, const Vector& y){x = x-y; return x;}
 
     friend std::ostream& operator<< (std::ostream& out, const Vector& v) {
       for (int i = 0; i < v.num_rows(); ++i) {
@@ -52,6 +45,11 @@ public:
       }
       return out;
     }
+
+    size_t num_rows() const {return m_num_rows;}
+
+    void zeroize();
+    void unitize();
 
     double norm();
     double sum();
