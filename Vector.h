@@ -37,7 +37,22 @@ public:
       }
       return y;
     }
+    friend double operator*(const Vector& A, const Vector& B){
+      double result{0};
+      for (int i = 0; i < A.num_rows(); ++i) {
+        result += A(i) * B(i);
+      }
+      return result;
+    }
     friend Vector operator-=(Vector& x, const Vector& y){x = x-y; return x;}
+
+    friend Vector operator/(Vector& x, double y){
+      Vector z{x.num_rows()};
+      for (int i = 0; i < x.num_rows(); ++i) {
+        z(i) = x(i)/y;
+      }
+      return z;
+    }
 
     friend std::ostream& operator<< (std::ostream& out, const Vector& v) {
       for (int i = 0; i < v.num_rows(); ++i) {
@@ -53,7 +68,6 @@ public:
 
     double norm();
     double sum();
-
 };
 
 

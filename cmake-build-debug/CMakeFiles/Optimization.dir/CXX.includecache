@@ -18,6 +18,18 @@ Vector.h
 cmath
 -
 
+/Users/connor/CLionProjects/Optimization/LinAlg.h
+Vector.h
+/Users/connor/CLionProjects/Optimization/Vector.h
+Matrix.h
+/Users/connor/CLionProjects/Optimization/Matrix.h
+
+/Users/connor/CLionProjects/Optimization/Matrix.h
+vector
+-
+Vector.h
+/Users/connor/CLionProjects/Optimization/Vector.h
+
 /Users/connor/CLionProjects/Optimization/Vector.h
 vector
 -
@@ -33,4 +45,8 @@ Vector.h
 /Users/connor/CLionProjects/Optimization/Vector.h
 Algorithms.h
 /Users/connor/CLionProjects/Optimization/Algorithms.h
+Matrix.h
+/Users/connor/CLionProjects/Optimization/Matrix.h
+LinAlg.h
+/Users/connor/CLionProjects/Optimization/LinAlg.h
 
